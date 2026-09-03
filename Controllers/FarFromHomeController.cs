@@ -6,8 +6,14 @@ namespace mvc.Controllers;
 
 public class FarFromHomeController : Controller
 {
-    public IActionResult Index()
+    public IActionResult Index(FarFromHomeModel farFromHome)
     {
+        var name = farFromHome.name;
+        var hometown = farFromHome.hometown;
+        
+        ViewData["name"] = name;
+        ViewData["hometown"] = hometown;
+
         return View();
     }
 

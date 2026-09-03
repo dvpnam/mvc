@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/namdao/workspace/dotnet/mvc/mvc.csproj": {}
+    "/Users/namdao/autodidact/dotnet/mvc/mvc.csproj": {}
   },
   "projects": {
-    "/Users/namdao/workspace/dotnet/mvc/mvc.csproj": {
+    "/Users/namdao/autodidact/dotnet/mvc/mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/namdao/workspace/dotnet/mvc/mvc.csproj",
+        "projectUniqueName": "/Users/namdao/autodidact/dotnet/mvc/mvc.csproj",
         "projectName": "mvc",
-        "projectPath": "/Users/namdao/workspace/dotnet/mvc/mvc.csproj",
+        "projectPath": "/Users/namdao/autodidact/dotnet/mvc/mvc.csproj",
         "packagesPath": "/Users/namdao/.nuget/packages/",
-        "outputPath": "/Users/namdao/workspace/dotnet/mvc/obj/",
+        "outputPath": "/Users/namdao/autodidact/dotnet/mvc/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/namdao/.nuget/NuGet/NuGet.Config"
