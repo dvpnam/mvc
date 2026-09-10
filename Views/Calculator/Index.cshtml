@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Calculator Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Calculator</h1>
+</div>
+
+<div class="text-center">
+    <form asp-action="Index" method="post">
+        <input type="number" name="num1" placeholder="Number 1">
+        +
+        <input type="number" name="num2" placeholder="Number 2">
+        <input type="submit" value="Equal">
+    </form>
+    <br>
+    @if (ViewData["num1"] != null && ViewData["num2"] != null)
+    {
+        <h3>@ViewData["sum"]</h3>
+    }
+</div>

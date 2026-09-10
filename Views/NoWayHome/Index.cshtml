@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "No Way Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">No WayHome</h1>
+</div>
+
+<div class="text-center">
+    <form asp-action="Index" method="post">
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="hometown" placeholder="Hometown">
+        <input type="submit" value="Greet">
+    </form>
+    <br>
+    @if (ViewData["name"] != null && ViewData["hometown"] != null)
+    {
+        <h3>hello, world, I'm @ViewData["name"] from @ViewData["hometown"]</h3>
+    }
+</div>

@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "/Users/namdao/.nuget/packages/": {}
+    "C:\\Users\\namdao\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/namdao/autodidact/dotnet/mvc/mvc.csproj",
+      "projectUniqueName": "C:\\Users\\namdao\\workspace\\mvc\\mvc.csproj",
       "projectName": "mvc",
-      "projectPath": "/Users/namdao/autodidact/dotnet/mvc/mvc.csproj",
-      "packagesPath": "/Users/namdao/.nuget/packages/",
-      "outputPath": "/Users/namdao/autodidact/dotnet/mvc/obj/",
+      "projectPath": "C:\\Users\\namdao\\workspace\\mvc\\mvc.csproj",
+      "packagesPath": "C:\\Users\\namdao\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\namdao\\workspace\\mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/namdao/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\namdao\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -70,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
